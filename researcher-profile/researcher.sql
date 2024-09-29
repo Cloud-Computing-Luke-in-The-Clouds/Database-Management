@@ -27,4 +27,12 @@ INSERT INTO ResearchProfile (google_scholar_link, personal_website_link, organiz
     27,
     'Male');
 
+INSERT INTO ResearchProfile (google_scholar_link, personal_website_link, organization, title, age, sex) VALUES (
+    'google_scholar.com',
+    'personal_website.com',
+    'Columbia University',
+    'Professor',
+    35,
+    'Male');
+
 select * from ResearchProfile;
