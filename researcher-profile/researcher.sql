@@ -14,8 +14,8 @@ CREATE TABLE IF NOT EXISTS ResearchProfile (
 );
 
 INSERT INTO ResearchProfile (researcher_name, image_url, google_scholar_link, personal_website_link, organization, title, age, sex) VALUES (
-    "ChinYi Tsai",
-    "https://randomuser.me/api/portraits/men/32.jpg"
+    'ChinYi Tsai',
+    'https://randomuser.me/api/portraits/men/32.jpg',
     'https://scholar.google.com/citations?user=l2g4PFYAAAAJ&hl=en',
     'https://www.chingyitsai.com/',
     'Princeton University',
@@ -24,8 +24,8 @@ INSERT INTO ResearchProfile (researcher_name, image_url, google_scholar_link, pe
     'Male');
 
 INSERT INTO ResearchProfile (researcher_name, image_url, google_scholar_link, personal_website_link, organization, title, age, sex) VALUES (
-    "TsungHan Wu",
-    "https://randomuser.me/api/portraits/women/28.jpg",
+    'TsungHan Wu',
+    'https://randomuser.me/api/portraits/women/28.jpg',
     'https://scholar.google.com.tw/citations?user=ykuVSuEAAAAJ',
     'https://tsunghan-wu.github.io/',
     'UC Berkeley',
@@ -34,8 +34,8 @@ INSERT INTO ResearchProfile (researcher_name, image_url, google_scholar_link, pe
     'Male');
 
 INSERT INTO ResearchProfile (researcher_name, image_url, google_scholar_link, personal_website_link, organization, title, age, sex) VALUES (
-    "Emma Watson",
-    "https://randomuser.me/api/portraits/women/68.jpg",
+    'Emma Watson',
+    'https://randomuser.me/api/portraits/women/68.jpg',
     'google_scholar.com',
     'personal_website.com',
     'Columbia University',
